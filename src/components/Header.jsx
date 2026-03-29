@@ -24,8 +24,8 @@ function StandardHeader({ siteSettings, sectionName = '_site_settings' }) {
           </span>
         </Link>
         <nav className="hidden md:flex gap-8 font-medium text-slate-600">
-           <a href="#about" className="hover:text-primary transition-colors">Over Ons</a>
-           <a href="#services" className="hover:text-primary transition-colors">Diensten</a>
+           <a href="#over_ons" className="hover:text-primary transition-colors">Over Ons</a>
+           <a href="#features" className="hover:text-primary transition-colors">Diensten</a>
            <a href="#contact" className="hover:text-primary transition-colors">Contact</a>
         </nav>
       </div>
